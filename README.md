@@ -1,3 +1,72 @@
+# Student Database Management System (MongoDB)
+
+This project is a Student Database Management System implemented using MongoDB, designed to efficiently manage student information for educational institutions.
+
+## Features
+
+- **User Authentication**: Secure authentication system for administrators and students.
+- **Student Management**: CRUD operations for managing student records.
+- **Course Management**: Add, update, and delete courses.
+- **Attendance Tracking**: Track student attendance for each course.
+- **Performance Analysis**: Generate reports on student performance and attendance.
+
+## Installation
+
+1. Clone the repository:
+```sh
+git clone https://github.com/TanoojSeelam/StudentDatabaseManagementSystem_MongoDB.git
+```
+
+2. Install dependencies:
+```sh
+npm install
+```
+
+3. Configure MongoDB:
+- Install MongoDB if not already installed.
+- Start MongoDB server.
+- Update `config/db.js` with your MongoDB URI.
+
+4. Start the server:
+```sh
+npm start
+```
+
+5. Access the application at `http://localhost:3000`.
+
+## Usage
+
+1. **Login**: 
+- Use the provided credentials to log in as an administrator or student.
+
+2. **Admin Dashboard**:
+- Manage students, courses, and attendance records.
+- Generate reports on student performance and attendance.
+
+3. **Student Dashboard**:
+- View personal information and enrolled courses.
+- Check attendance and grades.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add some feature'`).
+5. Push to the branch (`git push origin feature/your-feature`).
+6. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Credits
+
+- **Author**: [Tanooj Seelam](https://github.com/TanoojSeelam)
+- **Email**: tanoojseelam@example.com
+
 # MongoDB PHP Driver
 
 [![Travis Build Status](https://api.travis-ci.org/mongodb/mongo-php-driver.png?branch=master)](https://travis-ci.org/mongodb/mongo-php-driver)

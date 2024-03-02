@@ -62,11 +62,6 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Credits
-
-- **Author**: [Tanooj Seelam](https://github.com/TanoojSeelam)
-- **Email**: tanoojseelam@example.com
-
 # MongoDB PHP Driver
 
 [![Travis Build Status](https://api.travis-ci.org/mongodb/mongo-php-driver.png?branch=master)](https://travis-ci.org/mongodb/mongo-php-driver)
